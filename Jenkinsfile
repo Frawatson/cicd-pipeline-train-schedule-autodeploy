@@ -3,7 +3,7 @@ pipeline {
     environment {
         //be sure to replace "bhavukm" with your own Docker Hub usernam
         DOCKER_IMAGE_NAME = "frawatson/train-schedule-autodeploy"
-        CANARY_REPLICAS = 0
+        
     }
     stages {
         stage('Build') {
